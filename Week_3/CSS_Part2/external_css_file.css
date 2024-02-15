@@ -1,0 +1,21 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+body {
+    background-color: light grey;
+}
+h1 {
+    color: blue;
+}
+h2 {
+    color:#94ff33;
+}
+p {
+    color: red;
+}
+ul {
+    list-style-image: url(star.gif);
+}
+ol {
+    list-style-type: upper-roman;
+}
