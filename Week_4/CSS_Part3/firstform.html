@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+    <form action="/my-handling-form-page" method="post">
+        <h1>Feedback</h1>
+        <p>Tell us what you think about the site. What is working for? What would you like to see improved? Your opinion is very valuable to us.</p>
+        <ul>
+          <li>
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="mail">Your email</label>
+            <input type="email" id="mail" name="user_email" />
+          </li>
+          <li>
+            <label for="msg">Your comments</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+        </ul>
+        <br>
+        <div class="button">
+            <button type="submit">Send your message</button>
+        </div>
+          
+      </form>
+</body>
+</html>
